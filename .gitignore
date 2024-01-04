@@ -1,2 +1,4 @@
-.git
-.vs
+*.psess
+*.vsp
+*.vspx
+*.sap
