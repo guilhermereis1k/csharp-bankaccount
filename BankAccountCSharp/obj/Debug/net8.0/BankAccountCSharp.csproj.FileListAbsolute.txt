@@ -12,3 +12,4 @@ C:\Users\guilh\source\repos\BankAccountCSharp\BankAccountCSharp\obj\Debug\net8.0
 C:\Users\guilh\source\repos\BankAccountCSharp\BankAccountCSharp\obj\Debug\net8.0\BankAccountCSharp.pdb
 C:\Users\guilh\source\repos\BankAccountCSharp\BankAccountCSharp\obj\Debug\net8.0\BankAccountCSharp.genruntimeconfig.cache
 C:\Users\guilh\source\repos\BankAccountCSharp\BankAccountCSharp\obj\Debug\net8.0\ref\BankAccountCSharp.dll
+C:\Users\guilh\source\repos\BankAccountCSharp\BankAccountCSharp\obj\Debug\net8.0\BankAccountCSharp.sourcelink.json

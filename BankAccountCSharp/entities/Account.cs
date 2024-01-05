@@ -9,11 +9,11 @@ namespace Accounts
 class Account
     {
         public string? Name { get; set; }
-        public decimal Balance { get; set; }
+        public double Balance { get; set; }
 
         public Account() { }
 
-        public Account(string name, decimal currentBalance)
+        public Account(string name, double currentBalance)
         {
             Name = name;
             Balance = currentBalance;
@@ -21,21 +21,14 @@ class Account
 
         public void ChangeName(string newName) { Name = newName; }
 
-        public decimal MakeDeposit(decimal amount)
+        public double MakeDeposit(double amount)
         {
              return Balance += amount;
         }
 
-        public decimal MakeWithdraw(decimal amount)
+        public double MakeWithdraw(double amount)
         {
-            if(Balance < amount) {
-                Console.WriteLine("Invalid amount, your account don't have $ " + Balance);
-                return Balance;
-            } else
-            {
-                return Balance -= amount;
-            }
-            
+             return Balance -= amount;       
         }
     }
 
